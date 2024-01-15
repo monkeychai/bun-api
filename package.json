@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "module": "server.ts",
+  "type": "module",
+  "scripts": {
+    "server": "bun run server.ts",
+    "db": "bun bin/db.ts"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "bun-types": "latest",
+    "commander": "^11.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^3.11.4",
+    "lodash": "^4.17.21"
+  }
+}
